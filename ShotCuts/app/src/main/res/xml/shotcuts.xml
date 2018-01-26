@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="settings1"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/settingshort1"
+        android:shortcutLongLabel="@string/settinglong1"
+        android:shortcutDisabledMessage="@string/app_name">
+
+        <intent
+            android:action="android.intent.action.asdf"
+            android:targetPackage="com.nel.myapplication"
+            android:targetClass="com.nel.myapplication.MainActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="set"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/settingshort2"
+        android:shortcutLongLabel="@string/settinglong2"
+        android:shortcutDisabledMessage="@string/app_name">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.nel.myapplication"
+            android:targetClass="com.nel.myapplication.Activity1" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+</shortcuts>

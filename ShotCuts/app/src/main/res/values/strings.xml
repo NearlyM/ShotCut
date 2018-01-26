@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="settingshort1">settingShort1</string>
+    <string name="settinglong1">setting short 1 sfs</string>
+    <string name="settingshort2">settingShort2</string>
+    <string name="settinglong2">setting short 2 sfs</string>
+</resources>
